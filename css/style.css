@@ -1,0 +1,104 @@
+* {box-sizing: border-box;}
+home {
+  font-family: 'Lora', sans-serif;
+  color: white;
+  background-color: #E1C9D9;
+}
+
+.home-wr {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://4.bp.blogspot.com/-QH4oB5myF38/UIUa7p9PrII/AAAAAAAABeg/-Yh1nUelIOg/s1600/bosque+encantado.jpg);
+  background: cover;
+  background-color: #E1C9D9;
+  color: #D16014;
+  font-weight: bold;
+  text-align: center;
+}
+
+header {
+  padding: 5px 0;
+  background: black;
+  position: fixed;
+}
+
+header img {
+  width: 200px;
+}
+
+header nav {
+  float : right;
+  margin-top: 5px;
+}
+
+header nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px 15px;
+}
+
+header nav a:hover {
+  background: #CA8080;
+  border-radius: 3px;
+}
+
+#home {
+  text-align: center;
+  padding: 120px 0 150px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+#intereses img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  align-items: center;
+}
+
+#intereses .box {
+  display:inline-block;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.container {
+  width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contacto {
+  font-size: 30px;
+}
+
+.social {
+  margin-top: 60px;
+  width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}
+
+.social a {
+  color: black;
+  display: inline-block;
+  background-color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  margin-right: 10px;
+
+}
